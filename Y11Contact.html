@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <title>Shirt Shop</title>
+        <link rel="icon" type="image/x-icon" href="file:///C:/Users/shaky/OneDrive/Documents/DGT%20Y11%202023/HTML/hand-drawn-modern-man-avatar-260nw-1373616899.webp">
+      </head>
+<body>
+    <div class="container">
+        <h1>Welcome to our Shirt Shop!</h1>
+        <h4>Check out our latest collection of shirts below:</h4>
+        <a href="about me.html"> <button>About Me</button></a>
+        <a href="cart.html"> <button>Cart</button></a>
+        <a href="Shirt.html"> <button>Home</button></a>
+    
+ <div class="box main">
+    <form action="post_comment.php" method="post" id="contactform">
+      
+        <label for="contact_author" class="required">Name</label>
+        <input type="text" name="contact_author" id="contact_author" value="" tabindex="1" required="required">
+    <br>
+    <br>
+        <label for="email" class="required">Email</label>
+        <input type="email" name="email" id="email" value="" tabindex="2" required="required">
+    <br>
+    <br>
+        <label for="contact" class="required">Message</label>
+        <textarea name="contact" id="contact" rows="5" tabindex="4"  required="required"></textarea>
+    <br>
+    <br>
+        <input type="hidden" name="contact_post_ID" value="1" id="comment_post_ID" />
+        <input name="submit" type="submit" value="Submit contact" />
+    
+      </form>
+    </div>
+<div></div>
+</body>
+ </html>

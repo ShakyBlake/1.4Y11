@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <title>Shirt Shop</title>
+  <link rel="icon" type="image/x-icon" href="file:///C:/Users/shaky/OneDrive/Documents/DGT%20Y11%202023/HTML/hand-drawn-modern-man-avatar-260nw-1373616899.webp">
+  <script type="text/javascript">
+  function addText() {
+    if (!document.getElementById) return;
+    var sentence=document.changeform.sentence.value;
+    var node=document.createTextNode(" " + sentence);
+    document.getElementById("paragraph1").appendChild(node);
+    document.changeform.sentence.value="";
+  }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to our Shirt Shop!</h1>
+    <h4>Check out our latest collection of shirts below:</h4>
+    <a href="about me.html"> <button>About Me</button></a>
+    <a href="cart.html"> <button>Cart</button></a>
+    <a href="Y11Contact.html"> <button>Contact</button></a>
+    <div class="shirt-item">
+      <img src="file:///C:/Users/shaky/OneDrive/Documents/DGT%20Y11%202023/HTML/A9SVU91yEB8WD+DgikCpv0NVSibRS0iofsCpD3g4HKU1sQuGg8+E0jv8A1X66Rmj9NXEAAAAASUVORK5CYII=.jpg" alt="Shirt 1">
+      <div>
+        <h2>Shirt 1</h2>
+        <p>Price: $99.99</p>
+        <a href="cart.html"> <button>Add To Cart</button></a>
+      </div>
+    </div>
+
+    <div class="shirt-item">
+      <img src="file:///C:/Users/shaky/OneDrive/Documents/DGT%20Y11%202023/HTML/A9SVU91yEB8WD+DgikCpv0NVSibRS0iofsCpD3g4HKU1sQuGg8+E0jv8A1X66Rmj9NXEAAAAASUVORK5CYII=.jpg"Shirt 2">
+      <div>
+        <h2>Shirt 2</h2>
+        <p>Price: $99.99</p>
+        <a href="cart.html"> <button>Add To Cart</button></a>
+      </div>
+    </div>
+
+    <div class="shirt-item">
+      <img src="file:///C:/Users/shaky/OneDrive/Documents/DGT%20Y11%202023/HTML/A9SVU91yEB8WD+DgikCpv0NVSibRS0iofsCpD3g4HKU1sQuGg8+E0jv8A1X66Rmj9NXEAAAAASUVORK5CYII=.jpg" alt="Shirt 3">
+      <div>
+        <h2>Shirt 3</h2>
+        <p>Price: $99.99</p>
+        <a href="cart.html"> <button>Add To Cart</button></a>
+      </div>
+    </div>
+    <div>
+      <div id="respond">
+
+        <h3>Leave a Comment</h3>
+          <p id="paragraph1">Comments:</p>
+          <form name="comment">
+            <input type="text" name="sentence" size="65" />
+            <button type="button" onclick="addText();">Submit Comment</button>
+          </form>
+      
+        
+        <h4>Copyright @quickeasyandillegalcopyright.com All rights reserved</h4>
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
